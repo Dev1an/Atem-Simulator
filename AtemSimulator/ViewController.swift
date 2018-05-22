@@ -7,21 +7,39 @@
 //
 
 import Cocoa
+import Atem
 
 class ViewController: NSViewController {
+	
+	@IBOutlet weak var onButton: NSButton!
+	@IBOutlet weak var offButton: NSButton!
+	
+	var switcher: Switcher?
 
-	override func viewDidLoad() {
-		super.viewDidLoad()
-
-		// Do any additional setup after loading the view.
-	}
-
-	override var representedObject: Any? {
-		didSet {
-		// Update the view, if already loaded.
+	@IBAction func changePowerState(_ sender: Any) {
+		if onButton.state == .on {
+			do {
+				switcher = try Switcher()
+			} catch {
+				presentError(error)
+				setSwitchOff()
+			}
+		} else {
+			switcher?.channel.map{ $0.close(mode: .all) }.whenFailure { error in
+				self.presentError(error)
+				self.setSwitchOn()
+			}
 		}
 	}
-
-
+	
+	func setSwitchOff() {
+		onButton.state = .on
+		offButton.state = .off
+	}
+	
+	func setSwitchOn() {
+		onButton.state = .off
+		offButton.state = .on
+	}
 }
 

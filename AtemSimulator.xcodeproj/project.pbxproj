@@ -11,6 +11,22 @@
 		74CCEB2020B441AE007ACFF8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CCEB1F20B441AE007ACFF8 /* ViewController.swift */; };
 		74CCEB2220B441AF007ACFF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74CCEB2120B441AF007ACFF8 /* Assets.xcassets */; };
 		74CCEB2520B441AF007ACFF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74CCEB2320B441AF007ACFF8 /* Main.storyboard */; };
+		74D8D2D120B451A5006EA471 /* CNIOSHA1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74D8D2AD20B44D77006EA471 /* CNIOSHA1.framework */; };
+		74D8D2D220B451A5006EA471 /* CNIOSHA1.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 74D8D2AD20B44D77006EA471 /* CNIOSHA1.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		74D8D2D520B451A5006EA471 /* NIOConcurrencyHelpers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74D8D2B120B44D77006EA471 /* NIOConcurrencyHelpers.framework */; };
+		74D8D2D620B451A5006EA471 /* NIOConcurrencyHelpers.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 74D8D2B120B44D77006EA471 /* NIOConcurrencyHelpers.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		74D8D2D920B451A5006EA471 /* NIOPriorityQueue.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74D8D2B320B44D77006EA471 /* NIOPriorityQueue.framework */; };
+		74D8D2DA20B451A5006EA471 /* NIOPriorityQueue.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 74D8D2B320B44D77006EA471 /* NIOPriorityQueue.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		74D8D2DD20B451A5006EA471 /* CNIODarwin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74D8D2A920B44D77006EA471 /* CNIODarwin.framework */; };
+		74D8D2DE20B451A5006EA471 /* CNIODarwin.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 74D8D2A920B44D77006EA471 /* CNIODarwin.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		74D8D2E120B451A5006EA471 /* CNIOAtomics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74D8D2A720B44D77006EA471 /* CNIOAtomics.framework */; };
+		74D8D2E220B451A5006EA471 /* CNIOAtomics.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 74D8D2A720B44D77006EA471 /* CNIOAtomics.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		74D8D2E520B451A5006EA471 /* NIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74D8D2AF20B44D77006EA471 /* NIO.framework */; };
+		74D8D2E620B451A5006EA471 /* NIO.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 74D8D2AF20B44D77006EA471 /* NIO.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		74D8D2E920B451A5006EA471 /* Atem.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74D8D2A320B44D77006EA471 /* Atem.framework */; };
+		74D8D2EA20B451A5006EA471 /* Atem.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 74D8D2A320B44D77006EA471 /* Atem.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		74D8D2ED20B451A5006EA471 /* CNIOLinux.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74D8D2AB20B44D77006EA471 /* CNIOLinux.framework */; };
+		74D8D2EE20B451A5006EA471 /* CNIOLinux.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 74D8D2AB20B44D77006EA471 /* CNIOLinux.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +93,62 @@
 			remoteGlobalIDString = "swift-nio::NIOPriorityQueue::Product";
 			remoteInfo = NIOPriorityQueue;
 		};
+		74D8D2D320B451A5006EA471 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 74CCEB2D20B441C3007ACFF8 /* Atem.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = "swift-nio::CNIOSHA1";
+			remoteInfo = CNIOSHA1;
+		};
+		74D8D2D720B451A5006EA471 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 74CCEB2D20B441C3007ACFF8 /* Atem.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = "swift-nio::NIOConcurrencyHelpers";
+			remoteInfo = NIOConcurrencyHelpers;
+		};
+		74D8D2DB20B451A5006EA471 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 74CCEB2D20B441C3007ACFF8 /* Atem.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = "swift-nio::NIOPriorityQueue";
+			remoteInfo = NIOPriorityQueue;
+		};
+		74D8D2DF20B451A5006EA471 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 74CCEB2D20B441C3007ACFF8 /* Atem.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = "swift-nio::CNIODarwin";
+			remoteInfo = CNIODarwin;
+		};
+		74D8D2E320B451A5006EA471 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 74CCEB2D20B441C3007ACFF8 /* Atem.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = "swift-nio::CNIOAtomics";
+			remoteInfo = CNIOAtomics;
+		};
+		74D8D2E720B451A5006EA471 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 74CCEB2D20B441C3007ACFF8 /* Atem.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = "swift-nio::NIO";
+			remoteInfo = NIO;
+		};
+		74D8D2EB20B451A5006EA471 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 74CCEB2D20B441C3007ACFF8 /* Atem.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = "Atem::Atem";
+			remoteInfo = Atem;
+		};
+		74D8D2EF20B451A5006EA471 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 74CCEB2D20B441C3007ACFF8 /* Atem.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = "swift-nio::CNIOLinux";
+			remoteInfo = CNIOLinux;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -86,6 +158,14 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				74D8D2EE20B451A5006EA471 /* CNIOLinux.framework in Embed Frameworks */,
+				74D8D2DA20B451A5006EA471 /* NIOPriorityQueue.framework in Embed Frameworks */,
+				74D8D2D220B451A5006EA471 /* CNIOSHA1.framework in Embed Frameworks */,
+				74D8D2EA20B451A5006EA471 /* Atem.framework in Embed Frameworks */,
+				74D8D2DE20B451A5006EA471 /* CNIODarwin.framework in Embed Frameworks */,
+				74D8D2D620B451A5006EA471 /* NIOConcurrencyHelpers.framework in Embed Frameworks */,
+				74D8D2E220B451A5006EA471 /* CNIOAtomics.framework in Embed Frameworks */,
+				74D8D2E620B451A5006EA471 /* NIO.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -108,6 +188,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74D8D2ED20B451A5006EA471 /* CNIOLinux.framework in Frameworks */,
+				74D8D2D920B451A5006EA471 /* NIOPriorityQueue.framework in Frameworks */,
+				74D8D2D120B451A5006EA471 /* CNIOSHA1.framework in Frameworks */,
+				74D8D2E920B451A5006EA471 /* Atem.framework in Frameworks */,
+				74D8D2DD20B451A5006EA471 /* CNIODarwin.framework in Frameworks */,
+				74D8D2D520B451A5006EA471 /* NIOConcurrencyHelpers.framework in Frameworks */,
+				74D8D2E120B451A5006EA471 /* CNIOAtomics.framework in Frameworks */,
+				74D8D2E520B451A5006EA471 /* NIO.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +264,14 @@
 			buildRules = (
 			);
 			dependencies = (
+				74D8D2D420B451A5006EA471 /* PBXTargetDependency */,
+				74D8D2D820B451A5006EA471 /* PBXTargetDependency */,
+				74D8D2DC20B451A5006EA471 /* PBXTargetDependency */,
+				74D8D2E020B451A5006EA471 /* PBXTargetDependency */,
+				74D8D2E420B451A5006EA471 /* PBXTargetDependency */,
+				74D8D2E820B451A5006EA471 /* PBXTargetDependency */,
+				74D8D2EC20B451A5006EA471 /* PBXTargetDependency */,
+				74D8D2F020B451A5006EA471 /* PBXTargetDependency */,
 			);
 			name = AtemSimulator;
 			productName = AtemSimulator;
@@ -194,6 +290,11 @@
 				TargetAttributes = {
 					74CCEB1920B441AE007ACFF8 = {
 						CreatedOnToolsVersion = 9.4;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -312,7 +413,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "if [ -d .git ]; then\n    git submodule update --init --recursive\nelse\n    git clone git@github.com:Dev1an/Swift-Atem.git Protocol\nfi;";
+			shellScript = "if [ -d .git ]; then\n    git submodule update --init --recursive\nelse\n    git clone git@github.com:Dev1an/Swift-Atem.git Protocol\nfi;\ncd Protocol\nswift package update";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -327,6 +428,49 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		74D8D2D420B451A5006EA471 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CNIOSHA1;
+			targetProxy = 74D8D2D320B451A5006EA471 /* PBXContainerItemProxy */;
+		};
+		74D8D2D820B451A5006EA471 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NIOConcurrencyHelpers;
+			targetProxy = 74D8D2D720B451A5006EA471 /* PBXContainerItemProxy */;
+		};
+		74D8D2DC20B451A5006EA471 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NIOPriorityQueue;
+			targetProxy = 74D8D2DB20B451A5006EA471 /* PBXContainerItemProxy */;
+		};
+		74D8D2E020B451A5006EA471 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CNIODarwin;
+			targetProxy = 74D8D2DF20B451A5006EA471 /* PBXContainerItemProxy */;
+		};
+		74D8D2E420B451A5006EA471 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CNIOAtomics;
+			targetProxy = 74D8D2E320B451A5006EA471 /* PBXContainerItemProxy */;
+		};
+		74D8D2E820B451A5006EA471 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NIO;
+			targetProxy = 74D8D2E720B451A5006EA471 /* PBXContainerItemProxy */;
+		};
+		74D8D2EC20B451A5006EA471 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Atem;
+			targetProxy = 74D8D2EB20B451A5006EA471 /* PBXContainerItemProxy */;
+		};
+		74D8D2F020B451A5006EA471 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CNIOLinux;
+			targetProxy = 74D8D2EF20B451A5006EA471 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		74CCEB2320B441AF007ACFF8 /* Main.storyboard */ = {
@@ -467,6 +611,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				OTHER_SWIFT_FLAGS = "-Xcc -fmodule-map-file=$(SRCROOT)/Protocol/Atem.xcodeproj/GeneratedModuleMap/CNIOAtomics/module.modulemap -Xcc -fmodule-map-file=$(SRCROOT)/Protocol/Atem.xcodeproj/GeneratedModuleMap/CNIOLinux/module.modulemap -Xcc -fmodule-map-file=$(SRCROOT)/Protocol/Atem.xcodeproj/GeneratedModuleMap/CNIODarwin/module.modulemap";
 				PRODUCT_BUNDLE_IDENTIFIER = com.devian.AtemSimulator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -487,6 +632,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				OTHER_SWIFT_FLAGS = "-Xcc -fmodule-map-file=$(SRCROOT)/Protocol/Atem.xcodeproj/GeneratedModuleMap/CNIOAtomics/module.modulemap -Xcc -fmodule-map-file=$(SRCROOT)/Protocol/Atem.xcodeproj/GeneratedModuleMap/CNIOLinux/module.modulemap -Xcc -fmodule-map-file=$(SRCROOT)/Protocol/Atem.xcodeproj/GeneratedModuleMap/CNIODarwin/module.modulemap";
 				PRODUCT_BUNDLE_IDENTIFIER = com.devian.AtemSimulator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
