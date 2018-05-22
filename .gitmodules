@@ -1,0 +1,3 @@
+[submodule "Protocol"]
+	path = Protocol
+	url = git@github.com:Dev1an/Swift-Atem.git
