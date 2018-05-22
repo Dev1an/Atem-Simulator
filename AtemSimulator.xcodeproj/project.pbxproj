@@ -14,63 +14,63 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		74D8D27F20B44BC6006EA471 /* PBXContainerItemProxy */ = {
+		74D8D2A220B44D77006EA471 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 74CCEB2D20B441C3007ACFF8 /* Atem.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = "Atem::Atem::Product";
 			remoteInfo = Atem;
 		};
-		74D8D28120B44BC6006EA471 /* PBXContainerItemProxy */ = {
+		74D8D2A420B44D77006EA471 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 74CCEB2D20B441C3007ACFF8 /* Atem.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = "Atem::Atem RTests::Product";
 			remoteInfo = "Atem RTests";
 		};
-		74D8D28320B44BC6006EA471 /* PBXContainerItemProxy */ = {
+		74D8D2A620B44D77006EA471 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 74CCEB2D20B441C3007ACFF8 /* Atem.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = "swift-nio::CNIOAtomics::Product";
 			remoteInfo = CNIOAtomics;
 		};
-		74D8D28520B44BC6006EA471 /* PBXContainerItemProxy */ = {
+		74D8D2A820B44D77006EA471 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 74CCEB2D20B441C3007ACFF8 /* Atem.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = "swift-nio::CNIODarwin::Product";
 			remoteInfo = CNIODarwin;
 		};
-		74D8D28720B44BC6006EA471 /* PBXContainerItemProxy */ = {
+		74D8D2AA20B44D77006EA471 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 74CCEB2D20B441C3007ACFF8 /* Atem.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = "swift-nio::CNIOLinux::Product";
 			remoteInfo = CNIOLinux;
 		};
-		74D8D28920B44BC6006EA471 /* PBXContainerItemProxy */ = {
+		74D8D2AC20B44D77006EA471 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 74CCEB2D20B441C3007ACFF8 /* Atem.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = "swift-nio::CNIOSHA1::Product";
 			remoteInfo = CNIOSHA1;
 		};
-		74D8D28B20B44BC6006EA471 /* PBXContainerItemProxy */ = {
+		74D8D2AE20B44D77006EA471 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 74CCEB2D20B441C3007ACFF8 /* Atem.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = "swift-nio::NIO::Product";
 			remoteInfo = NIO;
 		};
-		74D8D28D20B44BC6006EA471 /* PBXContainerItemProxy */ = {
+		74D8D2B020B44D77006EA471 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 74CCEB2D20B441C3007ACFF8 /* Atem.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = "swift-nio::NIOConcurrencyHelpers::Product";
 			remoteInfo = NIOConcurrencyHelpers;
 		};
-		74D8D28F20B44BC6006EA471 /* PBXContainerItemProxy */ = {
+		74D8D2B220B44D77006EA471 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 74CCEB2D20B441C3007ACFF8 /* Atem.xcodeproj */;
 			proxyType = 2;
@@ -100,7 +100,7 @@
 		74CCEB2420B441AF007ACFF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		74CCEB2620B441AF007ACFF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		74CCEB2720B441AF007ACFF8 /* AtemSimulator.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AtemSimulator.entitlements; sourceTree = "<group>"; };
-		74CCEB2D20B441C3007ACFF8 /* Atem.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Atem.xcodeproj; path = ../Atem.xcodeproj; sourceTree = "<group>"; };
+		74CCEB2D20B441C3007ACFF8 /* Atem.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Atem.xcodeproj; path = Protocol/Atem.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,18 +144,18 @@
 			path = AtemSimulator;
 			sourceTree = "<group>";
 		};
-		74D8D27120B44BC6006EA471 /* Products */ = {
+		74D8D29420B44D77006EA471 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				74D8D28020B44BC6006EA471 /* Atem.framework */,
-				74D8D28220B44BC6006EA471 /* Atem_RTests.xctest */,
-				74D8D28420B44BC6006EA471 /* CNIOAtomics.framework */,
-				74D8D28620B44BC6006EA471 /* CNIODarwin.framework */,
-				74D8D28820B44BC6006EA471 /* CNIOLinux.framework */,
-				74D8D28A20B44BC6006EA471 /* CNIOSHA1.framework */,
-				74D8D28C20B44BC6006EA471 /* NIO.framework */,
-				74D8D28E20B44BC6006EA471 /* NIOConcurrencyHelpers.framework */,
-				74D8D29020B44BC6006EA471 /* NIOPriorityQueue.framework */,
+				74D8D2A320B44D77006EA471 /* Atem.framework */,
+				74D8D2A520B44D77006EA471 /* Atem_RTests.xctest */,
+				74D8D2A720B44D77006EA471 /* CNIOAtomics.framework */,
+				74D8D2A920B44D77006EA471 /* CNIODarwin.framework */,
+				74D8D2AB20B44D77006EA471 /* CNIOLinux.framework */,
+				74D8D2AD20B44D77006EA471 /* CNIOSHA1.framework */,
+				74D8D2AF20B44D77006EA471 /* NIO.framework */,
+				74D8D2B120B44D77006EA471 /* NIOConcurrencyHelpers.framework */,
+				74D8D2B320B44D77006EA471 /* NIOPriorityQueue.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -210,7 +210,7 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 74D8D27120B44BC6006EA471 /* Products */;
+					ProductGroup = 74D8D29420B44D77006EA471 /* Products */;
 					ProjectRef = 74CCEB2D20B441C3007ACFF8 /* Atem.xcodeproj */;
 				},
 			);
@@ -222,68 +222,68 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		74D8D28020B44BC6006EA471 /* Atem.framework */ = {
+		74D8D2A320B44D77006EA471 /* Atem.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = Atem.framework;
-			remoteRef = 74D8D27F20B44BC6006EA471 /* PBXContainerItemProxy */;
+			remoteRef = 74D8D2A220B44D77006EA471 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		74D8D28220B44BC6006EA471 /* Atem_RTests.xctest */ = {
+		74D8D2A520B44D77006EA471 /* Atem_RTests.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = file;
 			name = Atem_RTests.xctest;
 			path = "Atem RTests.xctest";
-			remoteRef = 74D8D28120B44BC6006EA471 /* PBXContainerItemProxy */;
+			remoteRef = 74D8D2A420B44D77006EA471 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		74D8D28420B44BC6006EA471 /* CNIOAtomics.framework */ = {
+		74D8D2A720B44D77006EA471 /* CNIOAtomics.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = CNIOAtomics.framework;
-			remoteRef = 74D8D28320B44BC6006EA471 /* PBXContainerItemProxy */;
+			remoteRef = 74D8D2A620B44D77006EA471 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		74D8D28620B44BC6006EA471 /* CNIODarwin.framework */ = {
+		74D8D2A920B44D77006EA471 /* CNIODarwin.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = CNIODarwin.framework;
-			remoteRef = 74D8D28520B44BC6006EA471 /* PBXContainerItemProxy */;
+			remoteRef = 74D8D2A820B44D77006EA471 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		74D8D28820B44BC6006EA471 /* CNIOLinux.framework */ = {
+		74D8D2AB20B44D77006EA471 /* CNIOLinux.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = CNIOLinux.framework;
-			remoteRef = 74D8D28720B44BC6006EA471 /* PBXContainerItemProxy */;
+			remoteRef = 74D8D2AA20B44D77006EA471 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		74D8D28A20B44BC6006EA471 /* CNIOSHA1.framework */ = {
+		74D8D2AD20B44D77006EA471 /* CNIOSHA1.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = CNIOSHA1.framework;
-			remoteRef = 74D8D28920B44BC6006EA471 /* PBXContainerItemProxy */;
+			remoteRef = 74D8D2AC20B44D77006EA471 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		74D8D28C20B44BC6006EA471 /* NIO.framework */ = {
+		74D8D2AF20B44D77006EA471 /* NIO.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = NIO.framework;
-			remoteRef = 74D8D28B20B44BC6006EA471 /* PBXContainerItemProxy */;
+			remoteRef = 74D8D2AE20B44D77006EA471 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		74D8D28E20B44BC6006EA471 /* NIOConcurrencyHelpers.framework */ = {
+		74D8D2B120B44D77006EA471 /* NIOConcurrencyHelpers.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = NIOConcurrencyHelpers.framework;
-			remoteRef = 74D8D28D20B44BC6006EA471 /* PBXContainerItemProxy */;
+			remoteRef = 74D8D2B020B44D77006EA471 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		74D8D29020B44BC6006EA471 /* NIOPriorityQueue.framework */ = {
+		74D8D2B320B44D77006EA471 /* NIOPriorityQueue.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = NIOPriorityQueue.framework;
-			remoteRef = 74D8D28F20B44BC6006EA471 /* PBXContainerItemProxy */;
+			remoteRef = 74D8D2B220B44D77006EA471 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -312,7 +312,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "";
+			shellScript = "git submodule update --init --recursive";
 		};
 /* End PBXShellScriptBuildPhase section */
 
