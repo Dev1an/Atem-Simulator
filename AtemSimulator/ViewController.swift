@@ -49,3 +49,15 @@ class ViewController: NSViewController {
 	}
 }
 
+class WindowController: NSWindowController {
+	
+	var controller: Controller?
+	override func windowDidLoad() {
+		super.windowDidLoad()
+		controller = try? Controller(ipAddress: "0.0.0.0")
+	}
+	
+	@IBAction func moveLever(_ sender: NSSlider) {
+		controller?.transition(to: UInt16(sender.intValue))
+	}
+}
