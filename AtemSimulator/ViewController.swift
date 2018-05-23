@@ -15,6 +15,12 @@ class ViewController: NSViewController {
 	@IBOutlet weak var offButton: NSButton!
 	
 	var switcher: Switcher?
+	
+	override func viewDidLoad() {
+		super.viewDidLoad()
+		setSwitchOn()
+		changePowerState(self)
+	}
 
 	@IBAction func changePowerState(_ sender: Any) {
 		if onButton.state == .on {
@@ -32,12 +38,12 @@ class ViewController: NSViewController {
 		}
 	}
 	
-	func setSwitchOff() {
+	func setSwitchOn() {
 		onButton.state = .on
 		offButton.state = .off
 	}
 	
-	func setSwitchOn() {
+	func setSwitchOff() {
 		onButton.state = .off
 		offButton.state = .on
 	}
