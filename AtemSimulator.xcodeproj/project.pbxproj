@@ -614,6 +614,7 @@
 				OTHER_SWIFT_FLAGS = "-Xcc -fmodule-map-file=$(SRCROOT)/Protocol/Atem.xcodeproj/GeneratedModuleMap/CNIOAtomics/module.modulemap -Xcc -fmodule-map-file=$(SRCROOT)/Protocol/Atem.xcodeproj/GeneratedModuleMap/CNIOLinux/module.modulemap -Xcc -fmodule-map-file=$(SRCROOT)/Protocol/Atem.xcodeproj/GeneratedModuleMap/CNIODarwin/module.modulemap";
 				PRODUCT_BUNDLE_IDENTIFIER = com.devian.AtemSimulator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INCLUDE_PATHS = "-Xcc -fmodule-map-file=$(SRCROOT)/Protocol/Atem.xcodeproj/GeneratedModuleMap/CNIOAtomics/module.modulemap -Xcc -fmodule-map-file=$(SRCROOT)/Protocol/Atem.xcodeproj/GeneratedModuleMap/CNIOLinux/module.modulemap -Xcc -fmodule-map-file=$(SRCROOT)/Protocol/Atem.xcodeproj/GeneratedModuleMap/CNIODarwin/module.modulemap";
 				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
@@ -635,6 +636,7 @@
 				OTHER_SWIFT_FLAGS = "-Xcc -fmodule-map-file=$(SRCROOT)/Protocol/Atem.xcodeproj/GeneratedModuleMap/CNIOAtomics/module.modulemap -Xcc -fmodule-map-file=$(SRCROOT)/Protocol/Atem.xcodeproj/GeneratedModuleMap/CNIOLinux/module.modulemap -Xcc -fmodule-map-file=$(SRCROOT)/Protocol/Atem.xcodeproj/GeneratedModuleMap/CNIODarwin/module.modulemap";
 				PRODUCT_BUNDLE_IDENTIFIER = com.devian.AtemSimulator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INCLUDE_PATHS = "-Xcc -fmodule-map-file=$(SRCROOT)/Protocol/Atem.xcodeproj/GeneratedModuleMap/CNIOAtomics/module.modulemap -Xcc -fmodule-map-file=$(SRCROOT)/Protocol/Atem.xcodeproj/GeneratedModuleMap/CNIOLinux/module.modulemap -Xcc -fmodule-map-file=$(SRCROOT)/Protocol/Atem.xcodeproj/GeneratedModuleMap/CNIODarwin/module.modulemap";
 				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
