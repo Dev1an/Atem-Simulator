@@ -54,10 +54,11 @@ class WindowController: NSWindowController {
 	var controller: Controller?
 	override func windowDidLoad() {
 		super.windowDidLoad()
-		controller = try? Controller(ipAddress: "127.0.0.1")
-			
-		controller?.messageHandler.when{ (newState: PreviewBusChanged) in
-			print(newState)
+		if let controller = try? Controller(ipAddress: "127.0.0.1") {
+			self.controller = controller
+			controller.when{ (newState: PreviewBusChanged) in
+				print(newState)
+			}
 		}
 	}
 
