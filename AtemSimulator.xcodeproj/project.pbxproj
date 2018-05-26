@@ -413,7 +413,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "if [ -d .git ]; then\n    git submodule update --init --recursive\nelse\n    git clone git@github.com:Dev1an/Swift-Atem.git Protocol\nfi;\ncd Protocol\nswift package update";
+			shellScript = "#if [ -d .git ]; then\n#    git submodule update --init --recursive\n#else\n#    git clone git@github.com:Dev1an/Swift-Atem.git Protocol\n#fi;\n#cd Protocol\n#swift package update";
 		};
 /* End PBXShellScriptBuildPhase section */
 

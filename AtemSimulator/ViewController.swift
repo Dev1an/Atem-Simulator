@@ -54,9 +54,13 @@ class WindowController: NSWindowController {
 	var controller: Controller?
 	override func windowDidLoad() {
 		super.windowDidLoad()
-		controller = try? Controller(ipAddress: "0.0.0.0")
+		controller = try? Controller(ipAddress: "127.0.0.1")
+			
+		controller?.messageHandler.when{ (newState: PreviewBusChanged) in
+			print(newState)
+		}
 	}
-	
+
 	@IBAction func moveLever(_ sender: NSSlider) {
 		controller?.transition(to: UInt16(sender.intValue))
 	}
