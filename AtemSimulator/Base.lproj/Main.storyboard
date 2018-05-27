@@ -695,20 +695,20 @@
                             <outlet property="delegate" destination="B8D-0N-5wS" id="98r-iN-zZc"/>
                         </connections>
                     </window>
-                    <touchBar key="touchBar" id="XRE-gJ-Slc">
+                    <touchBar key="touchBar" id="LLe-9C-GUI">
                         <touchBarItems>
-                            <sliderTouchBarItem id="PTH-Rs-kAF">
-                                <sliderAccessory key="minimumValueAccessory" id="92G-Ph-KeE">
-                                    <sliderAccessoryBehavior key="behavior" id="h2v-9u-1RZ"/>
+                            <sliderTouchBarItem id="hIh-Sb-oeE">
+                                <sliderAccessory key="minimumValueAccessory" id="Ebk-QN-Hhd">
+                                    <sliderAccessoryBehavior key="behavior" id="BLY-J7-VP0"/>
                                 </sliderAccessory>
-                                <sliderAccessory key="maximumValueAccessory" id="X1D-iP-1iF">
-                                    <sliderAccessoryBehavior key="behavior" id="wQd-wj-CMG"/>
+                                <sliderAccessory key="maximumValueAccessory" id="QWm-5x-1GW">
+                                    <sliderAccessoryBehavior key="behavior" id="YFF-y5-pzY"/>
                                 </sliderAccessory>
-                                <slider key="slider" verticalHuggingPriority="750" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BYy-hT-9j1">
-                                    <rect key="frame" x="0.0" y="0.0" width="685" height="30"/>
-                                    <sliderCell key="cell" continuous="YES" state="on" alignment="left" maxValue="9999" doubleValue="50" tickMarkPosition="above" sliderType="linear" id="lqE-cg-Z5e"/>
+                                <slider key="slider" verticalHuggingPriority="750" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kLE-KS-02k">
+                                    <rect key="frame" x="0.0" y="0.0" width="96" height="30"/>
+                                    <sliderCell key="cell" state="on" alignment="left" maxValue="100" doubleValue="50" tickMarkPosition="above" sliderType="linear" id="HIo-G8-xLI"/>
                                     <connections>
-                                        <action selector="moveLever:" target="B8D-0N-5wS" id="WFl-aW-9TD"/>
+                                        <action selector="moveLever:" target="B8D-0N-5wS" id="eod-Qs-RtM"/>
                                     </connections>
                                 </slider>
                             </sliderTouchBarItem>
@@ -726,7 +726,7 @@
         <scene sceneID="hIz-AP-VOD">
             <objects>
                 <viewController id="XfG-lQ-9wD" customClass="ViewController" customModule="AtemSimulator" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" wantsLayer="YES" misplaced="YES" id="m2S-Jp-Qdl">
+                    <view key="view" wantsLayer="YES" id="m2S-Jp-Qdl">
                         <rect key="frame" x="0.0" y="0.0" width="140" height="75"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
@@ -767,7 +767,7 @@
                 </viewController>
                 <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="75" y="568"/>
+            <point key="canvasLocation" x="75" y="621"/>
         </scene>
     </scenes>
 </document>

@@ -25,14 +25,16 @@ class ViewController: NSViewController {
 	@IBAction func changePowerState(_ sender: Any) {
 		if onButton.state == .on {
 			do {
-				switcher = try Switcher()
+				switcher = try Switcher(initializer: simulateSwitcher)
 			} catch {
 				presentError(error)
 				setSwitchOff()
 			}
 		} else {
 			switcher?.channel.map{ $0.close(mode: .all) }.whenFailure { error in
-				self.presentError(error)
+				DispatchQueue.main.async {
+					self.presentError(error)
+				}
 				self.setSwitchOn()
 			}
 		}
@@ -54,15 +56,17 @@ class WindowController: NSWindowController {
 	var controller: Controller?
 	override func windowDidLoad() {
 		super.windowDidLoad()
-		if let controller = try? Controller(ipAddress: "127.0.0.1") {
-			self.controller = controller
-			controller.when{ (newState: PreviewBusChanged) in
-				print(newState)
+		controller = try? Controller(ipAddress: "0.0.0.0") { handler in
+			handler.when{ (change: PreviewBusChanged) in
+				print(change)
+			}
+			handler.when { (change: NewTimecode) in
+				print(change)
 			}
 		}
 	}
 
 	@IBAction func moveLever(_ sender: NSSlider) {
-		controller?.transition(to: UInt16(sender.intValue))
+		controller?.send(message: ChangeTransitionPosition(to: UInt16(sender.intValue)))
 	}
 }
