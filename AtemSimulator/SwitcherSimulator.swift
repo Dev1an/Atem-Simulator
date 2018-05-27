@@ -10,16 +10,18 @@ import Atem
 
 func simulateSwitcher(handler: RespondingMessageHandler) {
 	handler.when { (change: ChangePreviewBus) in
-		return [PreviewBusChanged(to: change.previewBus, mixEffect: change.mixEffect)]
+		[PreviewBusChanged(to: change.previewBus, mixEffect: change.mixEffect)]
 	}
 	handler.when{ (change: ChangeProgramBus) in
-		return [ProgramBusChanged(to: change.programBus, mixEffect: change.mixEffect)]
+		[ProgramBusChanged(to: change.programBus, mixEffect: change.mixEffect)]
 	}
 	handler.when { (change: ChangeTransitionPosition) in
-		return [TransitionPositionChanged(
-			to: change.position,
-			remainingFrames: 250-UInt8(change.position/40),
-			mixEffect: change.mixEffect
-			)]
+		[
+			TransitionPositionChanged(
+				to: change.position,
+				remainingFrames: 250 - UInt8(change.position/40),
+				mixEffect: change.mixEffect
+			)
+		]
 	}
 }
