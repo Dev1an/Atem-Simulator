@@ -31,19 +31,19 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		7435272121CA872C006E8FC6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 74CCEB2D20B441C3007ACFF8 /* Atem.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = "Atem::Atem Tests::Product";
+			remoteInfo = "Atem Tests";
+		};
 		74D8D2A220B44D77006EA471 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 74CCEB2D20B441C3007ACFF8 /* Atem.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = "Atem::Atem::Product";
 			remoteInfo = Atem;
-		};
-		74D8D2A420B44D77006EA471 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 74CCEB2D20B441C3007ACFF8 /* Atem.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = "Atem::Atem RTests::Product";
-			remoteInfo = "Atem RTests";
 		};
 		74D8D2A620B44D77006EA471 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -239,7 +239,7 @@
 			isa = PBXGroup;
 			children = (
 				74D8D2A320B44D77006EA471 /* Atem.framework */,
-				74D8D2A520B44D77006EA471 /* Atem_RTests.xctest */,
+				7435272221CA872C006E8FC6 /* Atem_Tests.xctest */,
 				74D8D2A720B44D77006EA471 /* CNIOAtomics.framework */,
 				74D8D2A920B44D77006EA471 /* CNIODarwin.framework */,
 				74D8D2AB20B44D77006EA471 /* CNIOLinux.framework */,
@@ -326,19 +326,19 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
+		7435272221CA872C006E8FC6 /* Atem_Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = file;
+			name = Atem_Tests.xctest;
+			path = "Atem Tests.xctest";
+			remoteRef = 7435272121CA872C006E8FC6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		74D8D2A320B44D77006EA471 /* Atem.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = Atem.framework;
 			remoteRef = 74D8D2A220B44D77006EA471 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		74D8D2A520B44D77006EA471 /* Atem_RTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = file;
-			name = Atem_RTests.xctest;
-			path = "Atem RTests.xctest";
-			remoteRef = 74D8D2A420B44D77006EA471 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		74D8D2A720B44D77006EA471 /* CNIOAtomics.framework */ = {
@@ -539,7 +539,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
@@ -593,7 +593,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
 				SWIFT_COMPILATION_MODE = wholemodule;
