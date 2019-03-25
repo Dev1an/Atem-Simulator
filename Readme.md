@@ -38,4 +38,8 @@ open ../AtemSimulator.xcodeproj
 
 ### Run the macOS app
 
-Select the macOS target an click the run button.
+Select the macOS target an click the run button. This will launch a small window with an on/off button for the simulator.
+
+### Run the ATEM control software
+
+Enter `127.0.0.1` as the switcher IP. It should connect to the switcher simulator running on your computer.
