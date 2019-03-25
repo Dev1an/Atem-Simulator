@@ -8,6 +8,11 @@ This tool does not simulate the entire functionality of the Television studio bu
 
 ## Installation
 
+### Prerequisites
+
+- Xcode (available from the Mac App Store)
+- ATEM Software Control
+
 ### Run the command line app
 
 ```
@@ -17,7 +22,13 @@ swift run
 
 ### Build the macOS app
 
-Make sure to pull all the submodules.
+Make sure to pull all the submodules first:
+
+```
+git submodule update --init --recursive
+```
+
+Then:
 
 ```
 cd Protocol
