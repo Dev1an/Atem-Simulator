@@ -377,7 +377,7 @@
 			repositoryURL = "git@github.com:Dev1an/Swift-Atem.git";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 1.0.0;
+				minimumVersion = 1.1.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
