@@ -1,0 +1,25 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "Atem",
+        "repositoryURL": "git@github.com:Dev1an/Swift-Atem.git",
+        "state": {
+          "branch": null,
+          "revision": "8fb507a547982d060cc26a93e7126efde906e663",
+          "version": "1.0.0"
+        }
+      },
+      {
+        "package": "swift-nio",
+        "repositoryURL": "https://github.com/apple/swift-nio.git",
+        "state": {
+          "branch": null,
+          "revision": "ff01888051cd7efceb1bf8319c1dd3986c4bf6fc",
+          "version": "2.10.1"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
