@@ -13,13 +13,6 @@ This tool does not simulate the entire functionality of the Television studio bu
 - Xcode (available from the Mac App Store)
 - ATEM Software Control
 
-### Run the command line app
-
-```
-cd commmandLineApp
-swift run
-```
-
 ### Build the macOS app
 
 Make sure to pull all the submodules first:
